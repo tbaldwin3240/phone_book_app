@@ -42,6 +42,11 @@ while not(hasQuit):
             print("This contact will be removed")
         else:
             print("There not a contact with that name")
+#Created a list all entries
+    elif selected_option == "4":
+        for name,phone_number in phonebook.items():
+            print ("Found the entry for:" == name,phone_number)
+
 
 
     
