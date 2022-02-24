@@ -1,3 +1,5 @@
+phonebook ={}
+
 #Created a multi line string to input menu for project
 menu = """
     Electronic Phone Book
@@ -14,3 +16,15 @@ print(menu)
 selected_option = ("What do you want to do (1-5)?")
 
 print(selected_option)
+
+#Created a folder for contact name and phone number
+if selected_option =="2":
+    name = input("What is the contact's name")
+    phone_number = input("What is their phone number")
+    phonebook[name] = phone_number
+    print("Contact added SUCCESSFULLY!")
+    print(menu)
+
+
+    
+
