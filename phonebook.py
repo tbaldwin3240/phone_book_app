@@ -30,10 +30,18 @@ while not(hasQuit):
             name = input("What contact's number would you like")
             if phonebook.get (name) == None:
                 print("there's no contact with that name... please try again") 
-        else:
+    else:
             print("Here's their number",phonebook[name])
-    elif selected_option == "5":
+    if selected_option == "5":
         hasQuit = True
+    #Created a delet option to the phone book
+    elif selected_option == "3":
+        name = input("select what contact you would like to remove")
+        if phonebook.get(name) != None:
+            del phonebook [name]
+            print("This contact will be removed")
+        else:
+            print("There not a contact with that name")
 
 
     
