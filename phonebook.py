@@ -25,7 +25,7 @@ while not(hasQuit):
         phone_number = input("What is their phone number")
         phonebook[name] = phone_number
         print("Contact added SUCCESSFULLY!")
-    #Created a look up entry folder that allow the user too look up entry, seet and entry and quite
+    #Created a look up entry folder that allow the user too look up entry, set and entry and quite
     elif selected_option == "1":
             name = input("What contact's number would you like")
             if phonebook.get (name) == None:
