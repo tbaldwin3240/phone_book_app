@@ -9,3 +9,8 @@ menu = """
     5. Quit
     """
 print(menu)
+
+#Created a folder for user to select an option
+selected_option = ("What do you want to do (1-5)?")
+
+print(selected_option)
